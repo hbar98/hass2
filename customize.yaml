@@ -1,0 +1,15 @@
+#customize:
+#  weather.dark_sky
+#    order: 1
+#  group.living_room
+#    order: 2
+#  group.living_room_lamps
+#    order: 3
+#  group.kitchen
+#    order: 4
+#  group.outdoor_lights
+#    order: 5
+#  group.dining_room
+#    order: 6
+#  group.master_bedroom
+#    order: 7

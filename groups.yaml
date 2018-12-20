@@ -1,0 +1,56 @@
+#default_view:
+#    view: yes
+#    name: Main
+#    icon: mdi:home
+#    entities:
+#      - group.master_bedroom
+#      - group.dining_room
+#      - group.living_room
+#      - group.living_room_lamps
+#      - group.outdoor_lights
+#      - weather.dark_sky
+#      - group.kitchen
+
+kitchen:
+    name: kitchen
+    entities:
+      - light.kitchen_main_lights
+      - light.kitchen
+
+master_bedroom:
+  name: master bedroom
+  entities:
+    - light.MBR1
+    - light.MBR2
+    - light.MBR3
+
+dining_room:
+  name: dining room
+  entities:
+
+living_room:
+  name: living room
+  entities:
+    - light.living_room
+    - light.living_room_2
+    - light.living_room_3
+    - light.living_room_4
+    - light.living_room_5
+    - light.living_room_6
+
+living_room_lamps:
+  name: living room lamps
+  entities:
+    - switch.lamp
+    - switch.lamp1
+
+kitchen:
+  name: kitchen
+  entities:
+    - light.kitchen_main_lights
+    - light.kitchen
+
+outdoor_lights:
+  name: outdoor lights
+  entities:
+    - light.patio_back_porch_lights
